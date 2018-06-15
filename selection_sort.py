@@ -18,3 +18,5 @@ def select_sort(my_list):
 
 arr = [10, 5, 84, 4, 3]
 print(select_sort(arr))
+arr_1 = [12, 4, 2, 68, 23, 68, 24]
+print(select_sort(arr_1))
