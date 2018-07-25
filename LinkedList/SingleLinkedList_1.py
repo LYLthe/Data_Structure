@@ -40,5 +40,5 @@ while select != 2:
 ptr = head.next
 print()
 while ptr is not None:
-    print('姓名：%s\t学号：%s\t数学成绩：%d\t英语成绩：%d'%(ptr.name, ptr.no, ptr.math, ptr.english))
+    print('姓名：%s\t学号：%s\t数学成绩：%d\t英语成绩：%d' % (ptr.name, ptr.no, ptr.math, ptr.english))
     ptr = ptr.next
